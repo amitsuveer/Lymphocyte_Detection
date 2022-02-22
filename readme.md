@@ -1,7 +1,11 @@
 # Lymphocyte Detection using YOLOv5
  Amit Suveer, [LinkedIn](https://www.linkedin.com/in/amitsuveer)
 
-Here I tried lymphocyte detection using YOLOv5 on publicly available dataset provided by Prof. Andrew Janowczyk. The dataset can be downloaded from the website [here](http://www.andrewjanowczyk.com/deep-learning/). The YOLOv5 model used here is downloaded from [ultranalytics git repo](https://github.com/ultralytics/yolov5) and finetuned on lymphocyte data. With the data in your hard drive, let's begin. 
+Here I tried lymphocyte detection using YOLOv5 on publicly available dataset provided by Prof. Andrew Janowczyk. The dataset can be downloaded from the website [here](http://www.andrewjanowczyk.com/deep-learning/). Good to download the data and extract it. For ease, extract in the same folder as this repo.
+
+The YOLOv5 model used here is downloaded from [ultranalytics git repo](https://github.com/ultralytics/yolov5) and finetuned on lymphocyte data. Although, the scripts are used as they are at ultranalytics but the **yolov5** folder contents are trimmed down to made light weight by removing files which were irrelevant to this work. In addition, data path file and hyperparameters file used during training and inference are modified and customized according to the requirements of the task. These files can be found at location _/yolov5/data/_ and _yolov5/data/hyps/_, respectively. 
+
+With all this info, let's begin. 
 
 ### Installation and Setup
 
